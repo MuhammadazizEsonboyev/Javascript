@@ -1,0 +1,20 @@
+1.JavaScript dastlab "veb-sahifalarni jonli qilish" uchun yaratilgan.
+
+2.Bu tildagi dasturlar skriptlar deb ataladi. Ular to'g'ridan-to'g'ri veb-sahifaning HTML-da yozilishi va sahifa yuklanganda avtomatik ravishda ishga tushishi mumkin.
+
+3.Skriptlar oddiy matn sifatida taqdim etiladi va bajariladi. Ularni ishga tushirish uchun maxsus tayyorgarlik yoki kompilyatsiya kerak emas.
+
+4.Bu jihatdan JavaScript Java deb ataladigan boshqa tildan juda farq qiladi.
+
+5.JavaScript yaratilganda, u dastlab boshqa nomga ega edi: “LiveScript”. Ammo o'sha paytda Java juda mashhur edi, shuning uchun Java tilining "kenja ukasi" sifatida yangi tilni joylashtirish yordam berishiga qaror qilindi.
+
+6.Ammo rivojlanish jarayonida JavaScript o'zining ECMAScript deb nomlangan spetsifikatsiyasiga ega bo'lgan to'liq mustaqil tilga aylandi va endi uning Java tiliga umuman aloqasi yo'q.
+
+7.Bugungi kunda JavaScript nafaqat brauzerda, balki serverda yoki aslida JavaScript dvigateli deb ataladigan maxsus dasturga ega bo'lgan har qanday qurilmada ham ishlashi mumkin.
+
+8.Brauzerda ba'zan "JavaScript virtual mashinasi" deb ataladigan o'rnatilgan dvigatel mavjud.
+
+9.Turli dvigatellarda turli xil "kod nomlari" mavjud. Masalan: 
+V8 - Chrome, Opera va Edge-da. 
+SpiderMonkey - Firefox-da.
+IE uchun "Chakra", "JavaScriptCore", "Nitro" va Safari uchun "SquirrelFish" kabi boshqa kod nomlari mavjud.

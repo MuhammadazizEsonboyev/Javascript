@@ -167,3 +167,152 @@
 
 // let isOficeOpen = (hour >= 9  || min >= 0);
 // console.log(isOficeOpen);
+
+
+// =================== true false ==============
+
+// let  defaultColor = 'qora';
+// let userColor = undefined;
+// let currentColor = userColor || defaultColor;
+// console.log(currentColor);
+//==============================
+// let person = {
+//     name : 'Aziz',
+//     age : 12,
+//     job: "muhandis"
+// }
+// console.log(person.job || 'ishsiz');
+//===============================
+// let x = (2 + 3) * 4;
+// console.log(x);
+
+
+//===================== masala==================
+// let color1 = 'oq';
+// let color2 = 'qora';
+// let colorTemp = color1;
+// color1 = color2;
+// color2 = colorTemp;
+
+// console.log(color1);
+// console.log(color2);
+
+//=================== If else ========================
+// let hour;
+
+
+// if(hour >= 6 && hour < 12){
+//     console.log('Xayrli tong');
+// }
+// else if(hour >= 12 && hour < 18){
+//     console.log('Xayrli kun');
+// }
+// else{
+//     console.log('Xayrli kech');
+// }
+
+//=================== Switch case =====================
+// let word = 'pensil';
+// let book = 'book';
+
+// if (word == 'pensil') {
+//     console.log('qalam');
+// }
+// else if (book == 'book') {
+//     console.log('kitob');
+// }
+// else {
+//     console.log('Nomalim soz');
+// }
+
+
+// switch (word) {
+//     case 'pensil':
+//         console.log('qalam');
+//         break;
+//     case 'book':
+//         console.log('kitob');
+//         break;
+//     default:
+//         console.log('Nomalim so`z');
+//         break;
+// }
+//===================== For while ============ 
+// for (let i = 1; i < 10; i++) {
+//     if (i % 2 == 1) {
+//         console.log('toq son', i);
+//     }
+// }
+
+//================== While ======================
+
+
+// let i = 0;
+
+// while (i < 10) { 
+//     if (i % 2 == 1) {
+//         console.log('toq son', i);
+//         i++
+//     }
+// }
+
+
+// let i = 0;
+
+// do {
+//     if (i % 2 == 1) {
+//         console.log('toq son', i);
+//         i++
+//     }
+// }
+// while(i < 10);
+
+//========================= For in va for of===============
+
+// const person = {
+//     name : 'Person',
+//     age: 32
+// }
+
+// for(let key in person){
+//     console.log(key, person[key]);
+// }
+
+    // const colors = ['oq', 'qora', 'qizil', 'red'];
+    // for(let index in colors){
+    //     console.log(index, colors[index]);
+    // }
+
+    // for(let color of colors){
+    //     console.log(color);
+    // }
+//================================== Amaliy mashgulot==============
+// let number = getmax(3 , 3);
+// console.log(number);
+
+
+// function getmax(a , b){
+//     if(a > b){
+//         return a;
+//     }
+//     else{
+//         return b;
+//     }
+// }
+// let number =  isLand(2, 30);
+// console.log(number);
+
+
+// function isLand (width, height) {
+// if(width > height){
+//     return  true;
+// }
+// else{
+//     return  false;
+// }
+
+// }
+
+// ==============  FizzBizz ===========
+
+
