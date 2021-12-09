@@ -278,14 +278,14 @@
 //     console.log(key, person[key]);
 // }
 
-    // const colors = ['oq', 'qora', 'qizil', 'red'];
-    // for(let index in colors){
-    //     console.log(index, colors[index]);
-    // }
+// const colors = ['oq', 'qora', 'qizil', 'red'];
+// for(let index in colors){
+//     console.log(index, colors[index]);
+// }
 
-    // for(let color of colors){
-    //     console.log(color);
-    // }
+// for(let color of colors){
+//     console.log(color);
+// }
 //================================== Amaliy mashgulot==============
 // let number = getmax(3 , 3);
 // console.log(number);
@@ -313,6 +313,219 @@
 
 // }
 
-// ==============  FizzBizz ===========
+// ==============  Cheakc speed  ===========
+
+//  const son = 70;
+//  checkspeed(130)
+//  function checkspeed (speed){
+//      if(speed < son + 5){
+//          console.log('ok');
+//      }
+
+//      else{
+//         const point = Math.floor((speed - son) / 5);
+//          if( point >= 12){
+//              console.log('Guvohnoma olib qoyiladi');
+//          }
+//          else{
+//              console.log(point);
+//          }
+//      }
+//  }
+// ============================ Limit ========================
+
+// console.log(sum(10))
 
 
+// function sum(limit){
+//     let sum = 0;
+//     for(let i = 0;  i <= limit; i++){
+//         if((i % 3 == 0 ) || (i % 5 == 0)){
+//             sum = sum + i;
+//         }
+//     }
+//     return sum;
+// }
+
+// ========================= 
+
+// let car =  {
+//     make: "model",
+//     age : 'azaza',
+//     year : 1212,
+//     number: 12121
+// }
+
+
+// function  show(obj) { 
+//     for(let key in obj){
+//         if(typeof obj[key] == 'string'){
+//             console.log(key, obj[key]);
+//         }
+//     }    
+// }
+
+
+// show(car)
+
+// ============================ 
+// const marks = [91, 23, 34, 54, 33];
+// Calkul(marks)
+
+// function Calkul(marks) { 
+// let sum = 0;
+
+// for( let mark of marks){
+//     sum = sum + mark;
+
+//     let avrg = sum / marks.length;
+//     if(avrg < 50) return 'F';    
+//     if(avrg < 60) return 'D';    
+//     if(avrg < 70) return 'C';    
+//     if(avrg < 80) return 'B';    
+//     return 'A'
+// }
+// }
+
+
+// ==================================
+// document.onclick = function(event){
+//     if(event.target.tagName == "IMG"){
+//         event.target.classList.add('bordered');
+//     }
+// }
+
+//  document.querySelector('#test').onmousemove = function(event){
+//     //  event = event || window.event;
+//      document.querySelector('#offX').innerHTML = event.offsetX;
+//      document.querySelector('#offY').innerHTML = event.offsetY;
+//  }
+
+// /============================= Javascript 1 dars ===================
+
+// let name = prompt("Birinchi raqamni kiriting: ");
+// let name2 = prompt("Ikkinchi raqamni kiriting: ");
+
+// if(name == name2){
+//     alert("Birxil isim kiritish mumkin emas");
+// }
+
+// else{
+//     alert("Ismlar har xil");
+// }
+
+// ------------------------------------------
+
+// var start = "*";
+// var i = 1;
+// var num = +prompt("nechta yuldizcha xoxlaysiz");
+// var res = '';
+
+// ======================== yulduzchalar =========================
+// while(i <= num){
+//     res = res + start;
+//     ++i
+//     console.log(res);
+// }
+// ======================= O'yin =========================
+
+// let red = 'red';
+// let a = +prompt("Nechta urinishda topasiz:");
+
+
+// if (a == null) {
+//     alert('Siz oyinni tark etdingiz yana qaytib keling');
+// }
+// else if(isNaN(a)){
+//     alert('Harif kiritish mumkin emas');
+// }
+// else {
+//     for (i = 1; i <= a; i++) {
+//         let ac = prompt("Qaysi rangni tanlaysiz " + i + " urinish");
+//         if (ac == red) {
+//             alert('Siz ' + i + "- urinishda topdingiz!");
+//             break;
+//         }
+//         alert("siz topa olmadingiz yana qaytib keling!")
+//     }
+
+// }
+
+// =================================== Function ========================
+
+// function Hello(name, surname) {
+//     document.write('Ismingiz ', name ,"<br/> Familiyangiz ", surname);
+// }
+// Hello("Azizbek", "Esonboyev");
+
+
+// function Calc(a, b) {
+//     document.write(a + b);
+// }
+// var x = 3;
+// var y = 5;
+// Calc(x , y);
+
+// var a = 5;
+// var power = 2;
+// var res = 1;
+// var i = 1;
+// while(i <= power){
+//     res = res * a;
+//     i++
+// } ==============  daraja ========
+// alert(res);
+
+// ================================ Math.floor() ===
+
+var res;
+
+function minus(a, b) {
+    res = a - b;
+    return res;
+}
+
+function calc(a, b) {
+    res = a + b;
+    return res;
+}
+
+function nul(a, b) {
+    res = a * b;
+    return res;
+}
+
+function bolish(a, b) {
+    res = a / b;
+    return res;
+}
+
+
+
+var x = +prompt("Birinchi sonni kiriting")
+var y = +prompt("Ikkinchi sonni kiriting")
+var amal = prompt("Ammalarni kiriting + / * - ");
+var answ;
+
+switch (amal) {
+    case '/':
+        answ = bolish(x, y);
+        alert(answ);
+        break;
+    case '-':
+        answ = minus(x, y);
+        alert(answ);
+        break;
+    case '*':
+        answ = nul(x, y);
+        alert(answ);
+        break;
+    case '+':
+        answ = calc(x, y);
+        alert(answ);
+        break;
+    default:
+        alert('Notogri');
+}
+
+// document.write()

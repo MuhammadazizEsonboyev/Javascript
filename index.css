@@ -1,0 +1,11 @@
+/* img{
+    border: 2px solid black;
+    box-shadow:  0 0 10px black;
+} */
+
+#test{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px  auto;
+}
